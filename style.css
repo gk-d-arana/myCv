@@ -1,0 +1,338 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+body {
+  width: 99.2%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f3e7e9), color-stop(99%, #e3eeff), to(#e3eeff));
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: #fff !important;
+  position: fixed;
+  z-index: 100;
+  border-bottom: none;
+  padding: 20px 0;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+  font-family: "Montserrat";
+}
+
+.navbar a {
+  color: #000 !important;
+}
+
+.home-card {
+  background-image: linear-gradient(65.9deg, #55e4e0 5.5%, rgba(75, 68, 224, 0.74) 54.2%, #40c6ee 55.2%, #b124e0 98.4%);
+  border-radius: 10px;
+  height: 600px;
+  position: relative !important;
+  top: 20% !important;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+          box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.home-card img {
+  position: relative;
+  top: -20%;
+  right: 25%;
+  height: 700px;
+}
+
+.home-card-content {
+  margin-top: 20px;
+  width: 60%;
+  position: relative;
+  top: -89%;
+  left: 47%;
+  color: #fff;
+}
+
+.home-card-content p {
+  width: 50%;
+  color: #fff;
+  font-size: 1.39rem;
+}
+
+.myprojects {
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 0;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #183532;
+}
+
+.navbar-scroll {
+  background: #ffffff;
+  padding: 5px 0;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+
+.nav-dropdown-scroll {
+  background: #e7eaea;
+  -webkit-box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
+}
+
+#Home {
+  width: 100%;
+  height: 800px;
+}
+
+.home-avatar {
+  border-radius: 5px;
+}
+
+.home-heading {
+  font-size: 3rem;
+}
+
+#About_Me {
+  width: 100%;
+  min-height: 800px;
+  margin-top: 100px;
+}
+
+#My_Projects {
+  width: 100%;
+  min-height: 800px;
+}
+
+#Contact_Me {
+  width: 100%;
+  height: 500px;
+}
+
+.home_btn {
+  z-index: 3;
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+  padding: 15px 20px 20px 20px;
+  opacity: 60%;
+  display: none;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  -webkit-box-shadow: 0 0 20px #eee;
+          box-shadow: 0 0 20px #eee;
+  background-image: -webkit-gradient(linear, left top, right top, from(#02AAB0), color-stop(51%, #00CDAC), to(#02AAB0));
+  background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
+}
+
+.home_btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.homeH1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-cards {
+  height: 200px;
+  border: solid 2px transparent;
+  border-radius: 20px;
+}
+
+.myprojectsNone {
+  display: none;
+}
+
+.card1, .card2 {
+  height: 700px;
+  background-color: #FF9A8B;
+  background-image: -webkit-gradient(linear, left top, right top, from(#FF9A8B), color-stop(55%, #FF6A88), to(#FF99AC));
+  background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+  color: #E0EAFC;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+          box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.about-me, .about-me-right {
+  z-index: 2;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e6b980), to(#eacda3));
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  position: relative;
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
+  height: 350px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+
+.about-me-right {
+  left: 60%;
+}
+
+.about-me {
+  left: 4%;
+}
+
+.card-contact {
+  margin: 100px auto;
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
+  color: #000;
+  font-family: "Lucida Sans";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  background-image: linear-gradient(-225deg, #DFFFCD 0%, #90F9C4 48%, #39F3BB 100%);
+}
+
+.info-img1 {
+  height: 170px;
+  position: relative;
+  top: -70%;
+  left: 70%;
+}
+
+.info-img2 {
+  height: 130px;
+  position: relative;
+  top: -75%;
+  left: 76%;
+}
+
+.github-btn {
+  position: relative;
+  top: -1%;
+  right: 0;
+}
+
+.fb-icon {
+  height: 30px;
+}
+
+@media only screen and (min-width: 400px) {
+  .home-card-img {
+    position: relative !important;
+    top: -20% !important;
+    right: 35% !important;
+    height: 400px !important;
+  }
+
+  .home-card-content {
+    position: relative !important;
+    top: -20% !important;
+    left: 10% !important;
+    font-size: 14px;
+  }
+
+  .about-me-right {
+    position: relative !important;
+    left: 4.5% !important;
+  }
+
+  .info-img2 {
+    height: 110px;
+    position: relative !important;
+    top: -80% !important;
+  }
+
+  .info-img1 {
+    height: 150px;
+    position: relative !important;
+    top: -73% !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .home-card-img {
+    height: 500px !important;
+  }
+
+  .home-card-content {
+    position: relative !important;
+    top: -40% !important;
+    left: 40% !important;
+    font-size: 14px;
+  }
+
+  .info-img2 {
+    height: 200px;
+    position: relative !important;
+    top: -60% !important;
+    left: 73% !important;
+  }
+
+  .info-img1 {
+    height: 200px;
+    position: relative !important;
+    top: -60% !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .home-card-img {
+    position: relative !important;
+    top: -13% !important;
+    right: 20% !important;
+    height: 600px;
+  }
+
+  .info-img2 {
+    height: 100px;
+    position: relative !important;
+    top: -80% !important;
+    left: 80% !important;
+  }
+
+  .info-img1 {
+    height: 130px;
+    position: relative !important;
+    top: -72% !important;
+  }
+
+  .about-me-right {
+    position: relative !important;
+    left: 59% !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .home-card-img {
+    position: relative !important;
+    top: -25% !important;
+    right: 28% !important;
+    height: 700px !important;
+  }
+
+  .home-card-content {
+    position: relative !important;
+    top: -89% !important;
+    left: 44% !important;
+    font-size: 16.5px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
